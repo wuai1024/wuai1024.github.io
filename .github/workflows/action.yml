@@ -27,7 +27,6 @@ jobs:
           npm install
           npm run build
           echo 当前编译目录：`pwd`
-          ll `pwd`
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
