@@ -1,16 +1,30 @@
+# 一个 workflow，名字为Github Action Example
 name: Build and Deploy
-on: [ push ]
+
+# 触发 workflow 的事件
+on: #[ push ]
+  push:
+    #触发分支
+    branches:
+      - main
+
+# 一个workflow由执行的一项或多项job
 jobs:
+  # 一个job任务，任务名为build-and-deploy
   build-and-deploy:
+    # runs-on 指定job任务运行所需要的虚拟机环境(必填字段)
     runs-on: ubuntu-latest
+    # steps是每个Job的运行步骤，可以包含一个或多个步骤
     steps:
+      # action命令，切换分支获取源码
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
           persist-credentials: false
 
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-      
+        uses: |
+          echo 'Install and Build'
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
