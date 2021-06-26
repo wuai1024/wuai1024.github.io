@@ -1,0 +1,10 @@
+{
+  "name": "yangkang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/YangKang626/YangKang626.github.io",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
