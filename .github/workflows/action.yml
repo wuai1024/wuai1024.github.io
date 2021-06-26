@@ -26,9 +26,13 @@ jobs:
         run: |
           npm install
           npm run build
-          echo `pwd`
+          echo 当前编译目录：`pwd`
+          ll `pwd`
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
+        run: |
+          echo 当前目录：`pwd`
+          ll `pwd`
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: build-dist # The branch the action should deploy to.
