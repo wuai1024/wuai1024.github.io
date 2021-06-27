@@ -2,7 +2,7 @@ module.exports = {
     title: '个人主页',
     description: 'Just playing around',
     dest: '.vuepress/dist',
-    locales: {'/': {lang: 'zh-CN',},},
+    locales: { '/': { lang: 'zh-CN', }, },
     themeConfig: {
         nav: require('./nav'),
         sidebar: require('./nav'),
