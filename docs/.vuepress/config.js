@@ -10,7 +10,7 @@ module.exports = {
         docsDir: 'docs',
         repo: 'https://github.com/YangKang626/YangKang626.github.io',
         repoLabel: 'GitHub',
-        docsBranch: 'master',
+        docsBranch: 'main',
         displayAllHeaders: true,
         editLinks: true,
         editLinkText: '在 GitHub 上编辑此页',
