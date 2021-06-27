@@ -1,10 +1,13 @@
 ### 主页
-```` shell
-    echo 'hello word'
-````
-```` java
-    System.out.println("hello word");
-````
-```` google cloud
-    fmt.Println("hello word")
-````
+``` bash
+echo 'hello word'
+```
+``` java
+System.out.println("hello word");
+```
+``` javascript
+document.write('hello word');
+```
+```go
+fmt.Println("Hello World!")
+```
