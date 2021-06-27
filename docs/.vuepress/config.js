@@ -2,10 +2,10 @@ module.exports = {
     title: '个人主页',
     description: 'Just playing around',
     dest: '.vuepress/dist',
-    locales: { '/': { lang: 'zh-CN', }, },
+    locales: {'/': {lang: 'zh-CN',},},
     themeConfig: {
         nav: require('./nav'),
-        sidebar: require('./nav'),
+        sidebar: require('./sidebar'),
         lastUpdated: '最近更新',
         docsDir: 'docs',
         repo: 'https://github.com/YangKang626/YangKang626.github.io',
@@ -18,6 +18,10 @@ module.exports = {
     },
     plugins: [
         ['@vuepress/back-to-top'],
+        ['@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+        }],
         ['@vuepress/last-updated', {
             transformer: (timestamp, lang) => {
                 const dayjs = require('dayjs') // https://day.js.org/
@@ -32,6 +36,7 @@ module.exports = {
                 buttonText: '立即获取新内容'
             }
         }],
-        ['vuepress-plugin-code-copy', true]
+        ['vuepress-plugin-code-copy', true],
+        ['@vuepress/nprogress']
     ]
 }
