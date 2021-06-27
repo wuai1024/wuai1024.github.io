@@ -18,6 +18,20 @@ module.exports = {
     },
     plugins: [
         ['@vuepress/back-to-top'],
+        ['@vuepress/last-updated', {
+            transformer: (timestamp, lang) => {
+                const dayjs = require('dayjs') // https://day.js.org/
+                return dayjs(timestamp).add(0, 'hour').format('YYYY-MM-DD HH:mm:ss')
+            },
+        },],
+        ['@vuepress/medium-zoom'],
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: '有新内容更新啦~',
+                buttonText: '立即获取新内容'
+            }
+        }],
         ['vuepress-plugin-code-copy', true]
     ]
 }

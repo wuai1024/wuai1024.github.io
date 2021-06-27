@@ -10,5 +10,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.5"
   }
 }
