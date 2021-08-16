@@ -4,7 +4,7 @@ heroImage: /image/p.png
 heroText: 个人主页
 tagline: 每天前进一小步
 actionText: 开始 →
-actionLink: /guide/
+actionLink: /code/java/
 features:
 - title: Java开发
   details: 夯实高级开发所需基础，提升编程技能及代码设计能力。
