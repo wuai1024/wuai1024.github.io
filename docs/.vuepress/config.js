@@ -2,19 +2,25 @@ module.exports = {
     title: '个人主页',
     description: 'Just playing around',
     dest: '.vuepress/dist',
-    locales: {'/': {lang: 'zh-CN',},},
+    locales: {
+        '/': {
+            lang: 'zh-CN',
+        },
+    },
     themeConfig: {
         nav: require('./nav'),
         sidebar: require('./sidebar'),
         lastUpdated: '最近更新',
         docsDir: 'docs',
-        repo: 'https://github.com/YangKang626/YangKang626.github.io',
+        repo: 'https://github.com/wuai1024/wuai1024.github.io',
         repoLabel: 'GitHub',
         docsBranch: 'main',
         displayAllHeaders: true,
         editLinks: true,
         editLinkText: '在 GitHub 上编辑此页',
-        serviceWorker: {updatePopup: true},
+        serviceWorker: {
+            updatePopup: true
+        },
     },
     plugins: [
         ['@vuepress/back-to-top'],
@@ -27,7 +33,7 @@ module.exports = {
                 const dayjs = require('dayjs') // https://day.js.org/
                 return dayjs(timestamp).add(8, 'hour').format('YYYY-MM-DD HH:mm:ss')
             },
-        },],
+        }, ],
         ['@vuepress/medium-zoom'],
         ['@vuepress/pwa', {
             serviceWorker: true,
