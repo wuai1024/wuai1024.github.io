@@ -18,16 +18,4 @@ module.exports = [{
             }
         ]
     },
-    {
-        text: '镜像站',
-        items: [{
-                text: 'Chinese',
-                link: '/language/chinese/'
-            },
-            {
-                text: 'Japanese',
-                link: '/language/japanese/'
-            }
-        ]
-    },
 ]

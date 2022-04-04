@@ -5,17 +5,18 @@ module.exports = [{
     },
     {
         title: '线程',
-        children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
+        collapsable: false,
+        children: [{
+            title: '线程1',
+            children: [ /* ... */ ],
+        }],
     },
     {
         title: 'jvm',
         children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
     },
     {
         title: '***',
         children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
     }
 ]

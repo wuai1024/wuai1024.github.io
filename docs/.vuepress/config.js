@@ -13,6 +13,8 @@ module.exports = {
     themeConfig: {
         nav: require('./nav'),
         sidebar: require('./sidebar'),
+        //sidebar: 'auto', // 侧边栏配置
+        // sidebarDepth: 2, // 侧边栏显示2级
         lastUpdated: '最近更新',
         docsDir: 'docs',
         repo: 'https://github.com/wuai1024/wuai1024.github.io',
