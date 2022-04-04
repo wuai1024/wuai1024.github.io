@@ -7,6 +7,9 @@ module.exports = {
             lang: 'zh-CN',
         },
     },
+    markdown: {
+        lineNumbers: true // 代码块显示行号
+    },
     themeConfig: {
         nav: require('./nav'),
         sidebar: require('./sidebar'),
