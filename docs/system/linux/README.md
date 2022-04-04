@@ -1,3 +1,14 @@
+### 一、服务器hostname
+#### 1、查看当前服务器hostname
+``` shell
+hostnamectl
+```
+#### 2、修改hostname
+``` shell
+# ***为想修改的名称
+hostnamectl set-hostname *** 
+```
+
 ### 一、让系统查找快速的镜像源
 ``` shell
 yum install dnf -y
