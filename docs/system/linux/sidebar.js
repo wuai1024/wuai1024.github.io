@@ -8,9 +8,14 @@ module.exports = [{
         collapsable: false,
         path: '/system/linux/docker/iperf3',
         children: [{
-            title: '1、iperf3',
-            path: '/system/linux/docker/iperf3',
-        }],
+                title: '1、iperf3',
+                path: '/system/linux/docker/iperf3',
+            },
+            {
+                title: '2、portainer',
+                path: '/system/linux/docker/portainer',
+            }
+        ],
     },
     {
         title: '三、开发环境篇',
