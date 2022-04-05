@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "386084784cfdc5d8d01c9d7e6a73735e"
+    "revision": "af556cfae4beb3ae27bb33c62c805017"
   },
   {
     "url": "assets/css/0.styles.97ce954e.css",
@@ -122,16 +122,16 @@ self.__precacheManifest = [
     "revision": "3f9481d9bb976f48c52d2253b078fe15"
   },
   {
-    "url": "assets/js/app.787618a3.js",
-    "revision": "f4401155acc6146cd75dcd780b4140a2"
+    "url": "assets/js/app.4c4fdbab.js",
+    "revision": "ec8bc6e2e93cb535d513af1103119213"
   },
   {
     "url": "code/java/four.html",
-    "revision": "eb80b568dd762dd6950079274ccf0047"
+    "revision": "95e7196003e0e1cb6ae09661a91ac8c3"
   },
   {
     "url": "code/java/index.html",
-    "revision": "b223b47913292b04d17875911a169bc2"
+    "revision": "7202f9f1bbc9c63229ea293c0168b16f"
   },
   {
     "url": "image/hero.png",
@@ -163,51 +163,51 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "bdd40ecdae5424c19ae507a4a257e251"
+    "revision": "c5460ee70615385ab59915ac107103c3"
   },
   {
     "url": "operation/node.html",
-    "revision": "02a5b4ce9651cf0caa1393def473591d"
+    "revision": "55251a120894f16ba16b8bcf403aab8e"
   },
   {
     "url": "system/linux/docker/iperf3.html",
-    "revision": "89b24b666851e3fc5dfc2056b52dab9c"
+    "revision": "1a5cb650600a5bc5dfd03ccfec315005"
   },
   {
     "url": "system/linux/docker/portainer.html",
-    "revision": "47b191faf8244584289be1108a916309"
+    "revision": "5f0401f7ed89afcfaa14105fa9fbf9ec"
   },
   {
     "url": "system/linux/index.html",
-    "revision": "4e52bb9e7d52cdab90257fdfe9ef22c9"
+    "revision": "b3a7d40089d02d8fed7d9bc3ddb95462"
   },
   {
     "url": "system/linux/java/jdk.html",
-    "revision": "d1afc4accda62321ff15771e75ddcab4"
+    "revision": "4bdec357d37875d94f93784aefb98903"
   },
   {
     "url": "system/linux/java/maven.html",
-    "revision": "a1898c4275df96396daf2b3a0a5ee69b"
+    "revision": "cae2947dd6ef953bf27680627be1ef2b"
   },
   {
     "url": "system/linux/java/node.html",
-    "revision": "36ede6e381e2f0192afff41d74409ce8"
+    "revision": "3b1b93082b4a12e23c735aad042ed47a"
   },
   {
     "url": "system/macos/index.html",
-    "revision": "b084d146bded4d31e894bc6bbcd6cf34"
+    "revision": "96a72f6da20b3601c8a2f3d26fb1063c"
   },
   {
     "url": "system/macos/screen.html",
-    "revision": "678622ed369f2d9d6200ac7144cf76f7"
+    "revision": "ef06a2c9cc4730681e9c428f921498c3"
   },
   {
     "url": "system/windows/index.html",
-    "revision": "7b0395ee3e5795f5c96f9865fd7eeeb3"
+    "revision": "dbcb82147574267a580db8eac60efc47"
   },
   {
     "url": "system/windows/print.html",
-    "revision": "7f8ab7571541216647367013c9599fba"
+    "revision": "d9422783cb146d0b436671b7f14e8922"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
