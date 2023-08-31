@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "6c3c83889ab77a14a2aef2bea93ea95b"
+    "revision": "9e90906576680b5dbde1deed59437605"
   },
   {
     "url": "assets/css/0.styles.97ce954e.css",
@@ -118,16 +118,20 @@ self.__precacheManifest = [
     "revision": "4a15e10950db1acb9339344aaee8a984"
   },
   {
-    "url": "assets/js/29.ba040c98.js",
-    "revision": "4f1f9cfe4ccb0bee053d6a0ec5b5c595"
+    "url": "assets/js/29.b8d4476b.js",
+    "revision": "780595a2ec7deb5d3d852288a7880631"
   },
   {
     "url": "assets/js/3.25f41d6b.js",
     "revision": "288376dda7a6f9ea1ecbdc20d35d3b8e"
   },
   {
-    "url": "assets/js/4.21fc1ee5.js",
-    "revision": "3c6a83537775c5a5f2f26dc5cbfc2b92"
+    "url": "assets/js/30.8a00f04a.js",
+    "revision": "0f4a5a1acbbb5b06351696f8bf393a8d"
+  },
+  {
+    "url": "assets/js/4.ce6f38eb.js",
+    "revision": "1cc026c96262bbba3b6c5c21516aa953"
   },
   {
     "url": "assets/js/5.0e8ca067.js",
@@ -150,16 +154,16 @@ self.__precacheManifest = [
     "revision": "f98c571fa98fe7e78d9c0edf4a6eb561"
   },
   {
-    "url": "assets/js/app.d9174e3a.js",
-    "revision": "f17a2ee91e206c3d0b3792633cf0c268"
+    "url": "assets/js/app.c0e61ec3.js",
+    "revision": "40850f9bd78f4b8ac59079e7a39820e2"
   },
   {
     "url": "code/java/four.html",
-    "revision": "bef4b95b73be5af1c2a97ddc5756f2b1"
+    "revision": "e2aa478adcf0e3d2314d6763faa7f6a2"
   },
   {
     "url": "code/java/index.html",
-    "revision": "4097aefe1da5e87f0ae4b4dad4d7edc0"
+    "revision": "78150b440803cf7754677ddf61e081a0"
   },
   {
     "url": "image/hero.png",
@@ -214,80 +218,92 @@ self.__precacheManifest = [
     "revision": "ec4c943964de020a417ecbff6d0ce05e"
   },
   {
+    "url": "image/windows/service/winsw.png",
+    "revision": "ca9bc48cace20da14f3e3d586b5c31f4"
+  },
+  {
+    "url": "image/windows/service/winsw.xml.png",
+    "revision": "86ca67040ae07f1506ecbe0a150ee0f9"
+  },
+  {
     "url": "index.html",
-    "revision": "38bec8b7bb43477c7792821d2ab52508"
+    "revision": "08163e82947f3ea18278d0b926d5af98"
   },
   {
     "url": "operation/node.html",
-    "revision": "78643ca61d3ec452ab26f0db211e2948"
+    "revision": "ddedbddf35b823a4dcd3ba9234854733"
   },
   {
     "url": "system/linux/docker/images/iperf3.html",
-    "revision": "75a67ba0aa65d2c3df11ea351bbbacae"
+    "revision": "ed1676f731a7d497a1c1dfcc8b22b8d4"
   },
   {
     "url": "system/linux/docker/images/portainer.html",
-    "revision": "e86a36c12a91e7d73d80618084ea379b"
+    "revision": "302133fdd4d2352d8ca88097814e26ea"
   },
   {
     "url": "system/linux/docker/index.html",
-    "revision": "b89381f1d42fe4dd81e0825f5d090a5e"
+    "revision": "e24cf19087c1bef744b48b5f3971fcf5"
   },
   {
     "url": "system/linux/docker/operator/batched.html",
-    "revision": "72c9ce3a44d00757d84b8c700b67736c"
+    "revision": "7c8304ff2f37f2bee4a17b3cd5f00440"
   },
   {
     "url": "system/linux/docker/operator/remote.html",
-    "revision": "e21aec0883a60f3d6d4f28f6e3e96e5f"
+    "revision": "54ea37293b214bd81c415a6f5113440e"
   },
   {
     "url": "system/linux/docker/problem/commonProblem.html",
-    "revision": "4a1cb81889a4ed69673d7c52fe3237c1"
+    "revision": "c2431e6db2f3ca3982cc2f944e8441a4"
   },
   {
     "url": "system/linux/index.html",
-    "revision": "c355612c27377571ecd2b3674437307c"
+    "revision": "d4cee729adad1d67a8bbafc629ef056c"
   },
   {
     "url": "system/linux/java/jdk.html",
-    "revision": "a435a86e4fb1848f310ab5ff95331498"
+    "revision": "7ab96417809aba337ad384a7b1f2a249"
   },
   {
     "url": "system/linux/java/maven.html",
-    "revision": "ac5e124a4ad82a3bdcc455aa50137c16"
+    "revision": "1a2eb276f001dfe76581244a6d06bd07"
   },
   {
     "url": "system/linux/java/node.html",
-    "revision": "8406569fb53e70c8a419722bed1c604e"
+    "revision": "d64c86290a8e4fbade69e021a86268ac"
   },
   {
     "url": "system/macos/index.html",
-    "revision": "ea2f7fd0a79efe3df6098d7ac9b3ea24"
+    "revision": "f646b3c75181e8be727f251c95793bdb"
   },
   {
     "url": "system/macos/screen.html",
-    "revision": "a674411482ecdbe48187bf5ec9c134be"
+    "revision": "c1124a98409eb6f354d346bd9e2ceddc"
   },
   {
     "url": "system/synology/drive.html",
-    "revision": "6fd724dbe8fde73d67509bc45babf722"
+    "revision": "e2c00daa153672be0e1cb4aad636926e"
   },
   {
     "url": "system/synology/index.html",
-    "revision": "b22ada5065c9713c945d9fd726c33b08"
+    "revision": "54269d4fd2a57d132c97679b937ebd17"
   },
   {
     "url": "system/synology/root.html",
-    "revision": "80bd4955afd04a02b6dc71106b8cea52"
+    "revision": "957670a121dd5568f094f3d8fc528951"
   },
   {
     "url": "system/windows/index.html",
-    "revision": "334ee834d2bffbe28940ace9396f791b"
+    "revision": "74be5343366df4b7d0c9f4f57eb33da8"
   },
   {
     "url": "system/windows/print.html",
-    "revision": "769d1b4864c681e8763f5b7965b4c096"
+    "revision": "ea87d4156664286b404ead4f07c10b3b"
+  },
+  {
+    "url": "system/windows/service.html",
+    "revision": "8730f19fe47f381f6721084600fb3c38"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
